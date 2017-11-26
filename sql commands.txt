@@ -1,0 +1,69 @@
+*************************************************************************************************************
+
+				USER
+
+*************************************************************************************************************
+create table insta_users
+(
+fname varchar2(30) ,
+lname varchar2(30),
+username varchar2(30),
+email_id varchar2(50),
+password varchar2(30)
+);
+
+
+insert into insta_users
+values('Arun' , 'Rawat' , 'nurawat' , 'nurawat126@gmail.com' , '123');
+
+
+
+*****************************************************************************************************************
+movie table
+*****************************************************************************************************************
+
+
+CREATE TABLE movie (
+  m_id number(11) primary key,
+  name varchar2(400),
+  year number(11) ,
+  pg varchar2(400) ,
+  time number(11) ,
+  genre varchar2(400),
+  dat date,
+  pic1 varchar2(400) ,
+  pic2 varchar2(400) ,
+  pic3 varchar2(400) ,
+  pic4 varchar2(400) ,
+  description varchar2(2000),
+  director varchar2(400) ,
+  writers varchar2(400) ,
+  stars varchar2(400) ,
+  storyline varchar2(2000) ,
+  rating number(2,1) DEFAULT '7.6',
+  no_of_users number(11) DEFAULT '100',
+  cast1_img varchar2(400) ,
+  cast1_name varchar2(400),
+  cast1_as varchar2(400) ,
+  cast2_img varchar2(400),
+  cast2_name varchar2(400),
+  cast2_as varchar2(400) ,
+  cast3_img varchar2(400),
+  cast3_name varchar2(400) ,
+  cast3_as varchar2(400) ,
+  cast4_img varchar2(400),
+  cast4_name varchar2(400) ,
+  cast4_as varchar2(400) ,
+  cast5_img varchar2(400) ,
+  cast5_name varchar2(400),
+  cast5_as varchar2(400)
+  );
+
+
+
+create table comment_table
+(
+email varchar2(60),
+mid number(6),
+comm varchar2(100)
+);

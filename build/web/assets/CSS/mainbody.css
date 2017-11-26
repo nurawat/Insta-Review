@@ -1,0 +1,24 @@
+.main
+{
+	padding:0px;
+	-webkit-border-radius:100%;
+}
+
+.wrap
+{
+	width:88.75%;
+	margin:0 auto;
+	transition:all .2s linear;
+	-webkit-transition:all .2s linear;
+	cursor:pointer;
+}
+
+.column_left,.column_middle,.column_right
+{
+	float:left;
+	width:31%;
+}
+.column_middle
+{
+	margin:0 3%;
+}

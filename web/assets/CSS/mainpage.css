@@ -1,0 +1,26 @@
+.profile_details
+{
+	float:right;
+	margin: 5px;
+	border:none;
+	outline:none;
+}
+
+
+
+.profile_img{
+	float:right;
+}
+.profile_img img
+{
+	display:block;
+	border:none;
+	left:50vw;
+	outline:none;
+	border-radius:3em;
+	-webkit-border-radius:3em;
+	-moz-border-radius:3em;
+	-o-border-radius:3em;
+	border:3px solid #50597b;
+}
+

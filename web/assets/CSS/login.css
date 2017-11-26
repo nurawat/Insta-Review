@@ -1,0 +1,102 @@
+*{margin:0;}
+body
+{
+	font-family: 'ambleregular';
+	background:#1f253d;
+	padding:0;
+	position:relative;
+}	
+
+
+
+.login
+{
+	margin:2% auto 0;
+	width:32%;
+	background:#394264;
+	-webkit-transition-delay:bottom 0.4s ease-in-out;
+	margin:0 px;
+ 	position: relative;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 10px 10px 0 rgba(10, 10, 10, 0.4);
+	top:inherit;	
+	box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.1);		
+	
+    transition: left 0.4s ease-in-out;
+    -webkit-transition: left 0.4s ease-in-out;
+}
+
+
+form {
+	padding:10% 2.5em;
+}
+form li{
+	border:1px solid #B4B2B2;
+	list-style:none;
+	margin-bottom:25px;
+	width:100%;
+	background:none;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+
+}
+
+
+input[type="text"], input[type="password"] 
+{
+	font-family: 'Open Sans', sans-serif;
+	width:90%;
+	padding:0.7em 1em 0.7em 1.7em;
+	padding-left:10%;
+	color:#CCC;
+	font-size:18px;
+	outline: none;
+	background: none;
+	border:none;
+	font-weight:600;
+	}
+	
+input[type="text"]:active, input[type="password"]:active
+{
+	color:#FFF;
+}
+form li:hover{
+	border:1px solid #33FF00;
+	 box-shadow: 0 0 1em #40A9DF;
+	
+}
+.submit
+{
+	font-size:12px;
+	display: inline-block;
+	font-weight:400;
+	color: #fff;
+	transition: 0.1s all;
+	cursor: pointer;
+	outline: none;
+	padding:10px 10px;
+	margin-top:3px;
+	font-family: 'Open Sans', sans-serif;
+	width:44%;
+	border:none;
+	border-radius:10px;
+
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+# Insta Review
+This is a simple jsp based application which basically recent movies according to the data which is fed in the database file *.sql in the working directory(import it) and displays data accordingly.

@@ -1,0 +1,202 @@
+*
+{
+	margin:0 auto;
+	padding:0;
+}
+body
+{
+	background:#1f253d;
+	padding:0;
+	position:relative;
+}
+
+div#container
+{  margin-top: 20px;
+   width:65%;
+  float: left;
+  margin-left: 7%;
+}
+
+.title
+{
+  -webkit-border-radius: 12px;
+   border: 2px solid #e8e8e8;
+  margin-bottom: 0;
+  padding:10px;
+  width: auto;
+  background-color: #fff; 
+}
+
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+tr 
+{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+td#img_primary 
+{
+  padding: 0 14px 0 0;
+  vertical-align: top;
+  box-shadow: 2px rgba(0,0,0,0.3);
+}
+
+td#overview-top 
+{
+  vertical-align: top;
+  width: 100%;
+}
+
+
+
+.Higlight
+{
+	font-family: Arial, sans-serif;
+	text-decoration:blink;
+	font-size:20px;
+	text-shadow:0 0.8px 1px rgba(0,0,0,0.6);
+
+}
+h4.inline
+ {
+  display: inline;
+  padding: 0 .5em 0 0;
+}
+
+h4 {
+  color: #666;
+  font-size: 20px;
+  margin: .35em 0 .25em;
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+h1, h2, h3 {
+  font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+  color: #664700;
+  font-weight: normal;
+  padding:2px;
+}
+
+
+
+.heading
+{
+	margin-top:30px;		
+}
+
+.heading h3{
+	color: #FFF;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-family:Verdana, Geneva, sans-serif;
+	padding:15px 0;
+	text-align: center;
+	background:#cc324b;
+	border-radius: 5px 5px 0 0;	
+	font-weight:900;
+}
+
+.heading_name
+{
+	background: #394264;
+	border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-o-border-radius: 0px 0px 5px 5px;
+}
+
+
+
+.sidebar 
+{
+ 
+  width: 25%;
+  font-size: 100%;
+  height:auto;
+  margin-right: 20px;
+  float: right;
+}
+.sidebar-widget
+{
+  background-color:#FFFFFF; 
+  background: linear-gradient(bottom,#e8e8e8 0,#f2f2f1 50%);
+  border: 1px solid #f6f6f5;
+ 
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  margin-bottom: 7px;
+  padding: 10px 12px;
+  position: relative;
+  width: auto;
+  word-wrap: break-word;
+}
+.sidebar-widget  .wrapper
+{
+	height:auto;
+	width:inherit;
+	padding:10px;
+	background:transparent;	
+}
+#packs
+{
+	padding:1px;
+	padding-top:20px
+}
+
+
+
+/* hearts */
+p{
+  margin  :3px;
+  padding : 0;
+}
+
+.starRating:not(old){
+  display        : inline-block;
+  width          : 7.5em;
+  height         : 1.5em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+  
+}
+
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background:url(../images/icons/blue-star.SVG);
+  background-size : contain;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 1.5em;
+  height          : 1.5em;
+  background: url(../images/icons/red-star.svg);
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
+
+
